@@ -1,15 +1,23 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-sebasweb-dev-181257-authRole",
-      "UnauthRoleArn": "arn:aws:iam::776516132940:role/amplify-sebasweb-dev-181257-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::776516132940:role/amplify-sebasweb-dev-181257-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-sebasweb-dev-181257-deployment",
-      "UnauthRoleName": "amplify-sebasweb-dev-181257-unauthRole",
-      "StackName": "amplify-sebasweb-dev-181257",
-      "StackId": "arn:aws:cloudformation:us-east-1:776516132940:stack/amplify-sebasweb-dev-181257/d5569930-8546-11ec-af69-127dea02007b",
-      "AmplifyAppId": "d2t9v0luo73vvn"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-sebasweb-dev-181257-authRole",
+            "UnauthRoleArn": "arn:aws:iam::776516132940:role/amplify-sebasweb-dev-181257-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::776516132940:role/amplify-sebasweb-dev-181257-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-sebasweb-dev-181257-deployment",
+            "UnauthRoleName": "amplify-sebasweb-dev-181257-unauthRole",
+            "StackName": "amplify-sebasweb-dev-181257",
+            "StackId": "arn:aws:cloudformation:us-east-1:776516132940:stack/amplify-sebasweb-dev-181257/d5569930-8546-11ec-af69-127dea02007b",
+            "AmplifyAppId": "d2t9v0luo73vvn"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2t9v0luo73vvn",
+                    "type": "cicd"
+                }
+            }
+        }
     }
-  }
 }
